@@ -1,0 +1,5 @@
+<h1>All Articles</h1>
+
+<%@articles.each{ |article|%>
+  <p><a href="/articles/<%=article.id%>"> <%=article.title%></a></p>
+<%}%>
